@@ -23,7 +23,7 @@ def display_info(region):
     f.close()
     for row in lines:
         if region in row:
-            print(row[:-1])
+            print(row[:-1]) #test
 
 
 region_list = [
