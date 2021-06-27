@@ -1,0 +1,59 @@
+you are to write a program that will display information about countries.
+
+all the information is displayed in thje file "countries.csv"
+
+the finished program will:
+ask the user for a region:
+then
+display the following information:
+Country,Region,Population,Area (sq. mi.),Pop. Density (per sq. mi.),,Phones (per 1000)
+
+if the user types "quit" the program quits (stops).
+
+we are going to break down the program into parts so we can focus on small coding tasks, then put them back together into a main program. We test each part as we go. Sometimes we will need to try various ways of acheiving our goal, and select the one we like best.
+
+We can version off each part as a back up. 
+we can break the program down into various parts as follows:
+
+open the file
+read the file and create a list from  the lines in the file
+
+ask the user for a region
+display the information
+
+
+
+
+Version 1.
+'we are going to make sure we can open the file and display all the information.
+tasks:
+write code to:
+open the file
+display all the information on all countries - use a function to display all the inforamtion. call the function display_info.
+
+test your code.
+
+then modify the function so
+display only the information desired (Country,Region,Population,Area (sq. mi.),Pop. Density (per sq. mi.),,Phones (per 1000)).
+
+Version 2.
+back up version 1.
+the modify version as follows.
+modify the function so it takes a parameter - the region, and only displays the inforamtion for countries in that region.
+
+test your function.
+
+add code to:
+ask the user for a region, then display info on that region.
+
+
+Version 3.
+back up version 2
+Modify version 2 so the programs repeats asking for a region until the user types quit , or something similar.
+
+
+Version 4.
+entering the region is long and its easy to make errors.
+modify the code so the user is shown the lsit of regions first.
+give each region a number so the user types only the number.
+The user types -1 to quit.
